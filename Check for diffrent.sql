@@ -1,0 +1,4 @@
+SELECT * FROM Spell
+WHERE SpellID = 38077
+	OR SpellID = 29998
+	OR SpellID = 30141
