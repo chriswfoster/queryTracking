@@ -1,0 +1,20 @@
+Find Duplicates:
+
+select Name,count(Name) from mob 
+group by Name having count(name) > 1
+
+
+Find all with specific count in one field.
+
+SELECT * FROM mob
+WHERE Region LIKE 341
+
+
+Shipwright
+Boot merchant liste
+
+Replace All that:
+
+UPDATE table_name 
+SET field = replace(field, '[string-to-find]', '[string-that-will-replace-it]');
+
